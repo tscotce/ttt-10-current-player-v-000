@@ -1,9 +1,9 @@
 def turn_count(board)
   counter = 0 
   board.each do |element|
-    if element != " " 
+    if board != " " 
+      counter +=1
     end
-    counter +=1
   end
-  puts counter
+  puts "#{counter}"
 end
