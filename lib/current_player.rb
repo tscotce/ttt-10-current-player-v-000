@@ -4,7 +4,6 @@ def turn_count(board)
     if board != " " 
     end
     counter += 1 
-    return counter.to_i 
   end
 end
 
