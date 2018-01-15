@@ -5,5 +5,5 @@ def turn_count(board)
     end
     counter += 1 
   end
-  puts counter
+  puts counter.to_i
 end
