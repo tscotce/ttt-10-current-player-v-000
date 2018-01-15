@@ -3,6 +3,7 @@ def turn_count(board)
   board.each do |element|
     if element = "X" || element = "O"
       counter +=
+      put "You have played #{counter} turns."
     end
   end
 end
