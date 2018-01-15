@@ -4,6 +4,5 @@ def turn_count(board)
     if element = "X" || element = "O"
       counter += 1 
     end
-   puts "You have made #{counter} turns."
   end
 end
